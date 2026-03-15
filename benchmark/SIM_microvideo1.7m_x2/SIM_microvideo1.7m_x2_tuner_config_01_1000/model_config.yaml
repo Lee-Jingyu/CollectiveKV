@@ -41,13 +41,13 @@ SIM_MicroVideo_x2_test:
     topk: 50
     use_features: null
     verbose: 1
-SIM_MicroVideo_x2_000:
+SIM_MicroVideo_x2_best:
     accumulation_steps: 1
     alpha: 1
     attention_dim: 256
     attention_dropout: 0.1
     batch_norm: true
-    batch_size: 1024
+    batch_size: 4096
     beta: 1
     dataset_id: MicroVideo1.7M_x2
     debug_mode: false
